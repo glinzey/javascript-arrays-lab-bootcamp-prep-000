@@ -32,3 +32,8 @@ function removeLastKitten(){
   const lessKittens = kittens.pop()
   return kittens
 }
+function removeFirstKitten(){
+  const kittens = ["Milo", "Otis", "Garfield"]
+  const lessKittens = kittens.shift()
+  return kittens
+}
