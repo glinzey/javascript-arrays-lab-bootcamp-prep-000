@@ -29,5 +29,5 @@ function prependKitten(){
 }
 function removeLastKitten(){
   const kittens = ["Milo", "Otis", "Garfield"
-  const lessKittens]
+  const lessKittens = 
 }
