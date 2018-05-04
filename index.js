@@ -14,8 +14,8 @@ function destructivelyRemoveLastKitten(){
   kittens.pop()
   return kittens
 }
-function destructivelyAppendKitten(Ralph){
+function destructivelyRemoveFirstKitten(){
   kittens = ["Milo", "Otis", "Garfield"]
-  kittens.push("Ralph")
+  kittens.slice()
   return kittens
 }
