@@ -28,6 +28,7 @@ function prependKitten(){
   return ["Arnold", ...kittens]
 }
 function removeLastKitten(){
-  const kittens = ["Milo", "Otis", "Garfield"
-  const lessKittens = 
+  const kittens = ["Milo", "Otis", "Garfield"]
+  const lessKittens = kittens.pop()
+  return lessKittens
 }
